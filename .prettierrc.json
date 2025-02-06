@@ -1,0 +1,26 @@
+{
+  "printWidth": 120,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": true,
+  "endOfLine": "auto",
+  "importOrder": [
+    "react|lodash|zod",
+    "<THIRD_PARTY_MODULES>",
+    "^@utils(.*)",
+    "^@redux(.*)",
+    "^@layouts(.*)",
+    "^@components(.*)",
+    "^@styles(.*)",
+    "^@(.*)",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"]
+}
